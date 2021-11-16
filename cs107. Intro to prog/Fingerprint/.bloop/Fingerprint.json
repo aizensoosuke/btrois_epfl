@@ -1,0 +1,53 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "Fingerprint",
+        "directory": "C:\\Users\\abehs\\OneDrive\\@Academics\\btrois_epfl\\cs107. Intro to prog\\Fingerprint",
+        "workspaceDir": "C:\\Users\\abehs\\OneDrive\\@Academics\\btrois_epfl\\cs107. Intro to prog\\Fingerprint",
+        "sources": [
+            "C:\\Users\\abehs\\OneDrive\\@Academics\\btrois_epfl\\cs107. Intro to prog\\Fingerprint\\src\\cs107"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            
+        ],
+        "out": "C:\\Users\\abehs\\OneDrive\\@Academics\\btrois_epfl\\cs107. Intro to prog\\Fingerprint\\.bloop\\Fingerprint\\build",
+        "classesDir": "C:\\Users\\abehs\\OneDrive\\@Academics\\btrois_epfl\\cs107. Intro to prog\\Fingerprint\\.bloop\\Fingerprint\\build\\classes",
+        "resources": [
+            "C:\\Users\\abehs\\OneDrive\\@Academics\\btrois_epfl\\cs107. Intro to prog\\Fingerprint\\src\\main\\resources"
+        ],
+        "java": {
+            "options": [
+                "-source",
+                "1.8",
+                "-target",
+                "1.8",
+                "-g",
+                "-sourcepath",
+                "",
+                "-proc:none",
+                "-XDuseUnsharedTable=true"
+            ]
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files (x86)\\Java\\jre1.8.0_301",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                "cs107.Main"
+            ],
+            "classpath": [
+                
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

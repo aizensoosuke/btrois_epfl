@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cs108.BoundedIntQueueTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2021-10-23T20:08:40" hostname="SB2" time="0.06">
+  <properties/>
+  <testcase name="largeNegativeCapacityThrowIllegalArgument()" classname="cs108.BoundedIntQueueTest" time="0.03"/>
+  <testcase name="fullListIsFull()" classname="cs108.BoundedIntQueueTest" time="0.001"/>
+  <testcase name="emptyQueueHasZeroSize()" classname="cs108.BoundedIntQueueTest" time="0.002"/>
+  <testcase name="throwsErrorOnRemoveFromEmptyList()" classname="cs108.BoundedIntQueueTest" time="0.001"/>
+  <testcase name="canFillToCapacityWithoutError()" classname="cs108.BoundedIntQueueTest" time="0.0"/>
+  <testcase name="emptyQueueIsEmpty()" classname="cs108.BoundedIntQueueTest" time="0.001"/>
+  <testcase name="zeroCapacityQueueIsFull()" classname="cs108.BoundedIntQueueTest" time="0.0"/>
+  <testcase name="constructedQueueIsEmpty()" classname="cs108.BoundedIntQueueTest" time="0.001"/>
+  <testcase name="zeroCapacityForZeroCapacityQueue()" classname="cs108.BoundedIntQueueTest" time="0.0"/>
+  <testcase name="addAndRemoveFromSingletonReturnsElement()" classname="cs108.BoundedIntQueueTest" time="0.001"/>
+  <testcase name="removeFirstReturnsRightElements()" classname="cs108.BoundedIntQueueTest" time="0.0"/>
+  <testcase name="sizeIsCorrect()" classname="cs108.BoundedIntQueueTest" time="0.001"/>
+  <testcase name="capacityIsCorrectForSingletonQueue()" classname="cs108.BoundedIntQueueTest" time="0.001"/>
+  <testcase name="negativeCapacityThrowIllegalArgument()" classname="cs108.BoundedIntQueueTest" time="0.001"/>
+  <testcase name="throwsErrorOnAddToFullList()" classname="cs108.BoundedIntQueueTest" time="0.002"/>
+  <testcase name="capacityIsCorrect()" classname="cs108.BoundedIntQueueTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

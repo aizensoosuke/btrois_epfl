@@ -1,0 +1,61 @@
+plugins {
+    id 'com.adarshr.test-logger' version '3.0.0'
+    id 'java'
+    id 'application'
+}
+
+testlogger {
+    theme 'standard'
+    showExceptions true
+    showStackTraces true
+    showFullStackTraces false
+    showCauses true
+    slowThreshold 2000
+    showSummary true
+    showSimpleNames false
+    showPassed true
+    showSkipped true
+    showFailed true
+    showStandardStreams false
+    showPassedStandardStreams true
+    showSkippedStandardStreams true
+    showFailedStandardStreams true
+    logLevel 'lifecycle'
+}
+
+apply plugin: 'java'
+
+ext {
+    javaDefaultMainClass = "cs108.GetSecretURL"
+}
+
+application {
+    mainClassName = project.hasProperty("mainClass") ? project.getPropoerty("mainClass") : javaDefaultMainClass
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/cs108']
+        }
+    }
+    test {
+         java {
+              srcDirs = ['test/cs108']
+         }
+    }
+}
+
+dependencies {
+             implementation files("lib/queue.jar")
+             testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.1'
+             testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1'
+}
+
+test {
+    useJUnitPlatform()
+}
